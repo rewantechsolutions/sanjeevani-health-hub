@@ -26,7 +26,7 @@ export function VideoSection() {
 
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
               {[
-                { icon: HeartPulse, k: "30 Thousand+", v: "patients treated" },
+                { icon: HeartPulse, k: "30 K+", v: "patients treated" },
                 { icon: Users, k: "20+", v: "doctors" },
                 { icon: ShieldCheck, k: "49+", v: "beds" },
               ].map(({ icon: Icon, k, v }) => (
